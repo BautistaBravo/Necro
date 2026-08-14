@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="SkeletonData" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://SkeletonData.gd" id="1_x1y2z"]
+[ext_resource type="Resource" path="res://tier2_skeleton.tres" id="2_z3y4x"]
+
+[resource]
+script = ExtResource("1_x1y2z")
+tier = 1
+skeleton_name = "Esqueleto"
+souls_per_day = 10
+hp = 100
+attack = 10
+defense = 5
+next_tier = ExtResource("2_z3y4x")
